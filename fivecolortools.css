@@ -1,0 +1,187 @@
+
+
+
+#header{
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: top;
+	height: 500px;
+	width: 100%;
+	background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(header.png);
+}
+
+.title{
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	text-align: center;
+	font-family: 'Miriam Libre', sans-serif;
+	font-size: 55px;
+	font-weight: normal;
+	width: 780px;
+}
+
+.profile{
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	position: absolute;
+	top: 505px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: 1px solid white;
+}
+
+.title-alicia{
+	position: relative;
+	font-family: 'Alice', serif;
+	font-size: 33px;
+	font-weight: bold;
+	color: rgb 51, 51, 51;
+	text-align: center;
+	float: center;
+	top: -25px;
+	padding: none;
+	margin: none;
+}
+.title-text{
+	position: relative;
+	font-style: italic;
+	color: rgb 51, 51, 51;
+	font-family: 'Alice', serif;
+	text-align: center;
+	float: center;
+	top: -50px;
+	margin: none;
+	font-size:20px;
+	border-bottom: 2px solid lightgray;
+	width: 24%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.text{
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	top: 640px;
+	left: 15%;
+	right: 10%;
+	margin-bottom: 50px;
+}
+
+.paragraph{
+	padding-bottom: 20px;
+}
+
+.heading{
+	font-family: 'Zilla Slab Highlight', cursive;
+	font-weight: bold;
+	color: white;
+	font-size: 20px;
+}
+
+a:hover{
+	color: #42b4d6;
+	text-decoration: underline;
+}
+
+a{
+	color: #42b4d6;
+	text-decoration: none;
+	padding-bottom: 20px;
+}
+
+.sentence{
+	font-family: 'Alice', serif;
+	font-size: 23px;
+	line-height: 32px;
+	color: rgb 51, 51, 51;
+}
+
+.gold{
+	font-size: 23px;
+	padding-bottom: 20px;
+}
+
+.heading mark{
+	background-color: white;
+	color: black;
+}
+
+.gold mark{
+	background-color: gold;
+	color: black;
+}
+
+.hailpixel{
+	width: 100%;
+	left: 15%;
+	right: 15%;
+	padding-bottom: 120px;
+}
+
+.colorhunt{
+	width: 100%;
+	left: 15%;
+	right: 15%;
+	padding-bottom: 120px;
+}
+
+.imagecolorpicker{
+	width: 100%;
+	left: 15%;
+	right: 15%;
+	padding-bottom: 120px;
+}
+
+.material.io{
+	width: 100%;
+	left: 15%;
+	right: 15%;
+	padding-bottom: 120px;
+}
+
+.palette.site{
+	width: 100%;
+	left: 15%;
+	right: 15%;
+	padding-bottom: 120px;
+}
+
+
+
+/*to remove the underline from a link: text-decoreation: none;
+position: absolute;
+
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	text-align: center;
+	font-family: 'Miriam Libre', sans-serif;
+	font-size: 55px;
+	font-weight: normal;
+	width: 780px;
+	
+	header:
+	
+	position: relative;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	Width: 100%;
+	height: 500px;
+	margin: auto;
+	
+	margin-left: auto;
+	margin-right: auto;
+	Width: 100%;
+	height: 500px;
+	size: cover;
+	background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url("header.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: top
